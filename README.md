@@ -29,11 +29,11 @@ EncryptUtils.AES()......                 : AES加密/解密
 
 Gradle:
 ```
-groovy
-    allprojects {
-	repositories {
-	   ...
-	   maven { url 'https://jitpack.io' }
+
+allprojects {
+    repositories {
+	...
+	maven { url 'https://jitpack.io' }
     }
 }
   ```
