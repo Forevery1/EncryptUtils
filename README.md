@@ -12,10 +12,9 @@ groovy
   ```
   compile:
   ```
-  dependencies {
-       	dependencies {
-	        compile 'com.github.Forevery1:EncodeUtils:-SNAPSHOT'
-	}
-  }
+    dependencies {
+	compile 'com.github.Forevery1:EncodeUtils:-6a3f263b44-1'
+    }
+
 ```
 
