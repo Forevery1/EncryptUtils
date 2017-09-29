@@ -13,7 +13,9 @@ groovy
   compile:
   ```
   dependencies {
-       compile 'com.github.Forevery1:EncodeUtils:84b7856cc1'
+       	dependencies {
+	        compile 'com.github.Forevery1:EncodeUtils:-SNAPSHOT'
+	}
   }
 ```
 
