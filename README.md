@@ -14,9 +14,10 @@ groovy
   ```
   compile:
   ```
-   	dependencies {
-	        compile 'com.github.Forevery1:EncodeUtils:bd144d83fd'
-	}
+ dependencies {
+     compile 'com.github.Forevery1:EncodeUtils:1.0'
+}
+
 
 ```
 
