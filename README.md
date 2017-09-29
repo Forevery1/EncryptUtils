@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/Forevery1/EncodeUtils.svg)](https://jitpack.io/#Forevery1/EncodeUtils)
+[![](https://jitpack.io/v/Forevery1/EncryptUtils.svg)](https://jitpack.io/#Forevery1/EncryptUtils)
 
 * ### 加密解密
 ```
@@ -29,18 +29,18 @@ EncryptUtils.AES()......                 : AES加密/解密
 
 Gradle:
 ```
-groovy
-    allprojects {
-	repositories {
-	   ...
-	   maven { url 'https://jitpack.io' }
+
+allprojects {
+    repositories {
+	...
+	maven { url 'https://jitpack.io' }
     }
 }
   ```
   compile:
   ```
  dependencies {
-     compile 'com.github.Forevery1:EncryptUtils:1.0'
+     compile 'com.github.Forevery1:EncryptUtils:1.1'
 }
 
 ```
