@@ -7,12 +7,12 @@ package org.forevery.EncodeUtils.Encode.RC4;
 
 public class RC4_Utils {
 
-    /*private String Decry_RC4(byte[] data, String key) {
+    private String Decry(byte[] data, String key) {
         if (data == null || key == null) {
             return null;
         }
         return asString(RC4Base(data, key));
-    }*/
+    }
 
     /**
      * @param data 数据
@@ -20,7 +20,7 @@ public class RC4_Utils {
      * @param Type 解密编码
      * @return String
      */
-    public String Decry_RC4(String data, String key, String Type) {
+    public String Decry(String data, String key, String Type) {
         try {
             if (data == null || key == null) {
                 return null;
@@ -31,14 +31,14 @@ public class RC4_Utils {
         }
     }
 
-    public String Decry_RC4(String data, String key) {
+    public String Decry(String data, String key) {
         if (data == null || key == null) {
             return null;
         }
         return new String(RC4Base(HexString2Bytes(data), key));
     }
 
-    private byte[] Encry_RC4_(String data, String key) {
+    private byte[] Encry_Byte(String data, String key) {
         if (data == null || key == null) {
             return null;
         }
@@ -46,11 +46,11 @@ public class RC4_Utils {
         return RC4Base(b_data, key);
     }
 
-    public String Encry_RC4(String data, String key) {
+    public String Encry(String data, String key) {
         if (data == null || key == null) {
             return null;
         }
-        return toHexString(asString(Encry_RC4_(data, key)));
+        return toHexString(asString(Encry_Byte(data, key)));
     }
 
     private String asString(byte[] buf) {
