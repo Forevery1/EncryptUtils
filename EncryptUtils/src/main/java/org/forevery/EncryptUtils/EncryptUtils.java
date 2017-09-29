@@ -1,22 +1,22 @@
 package org.forevery.EncryptUtils;
 
-import org.forevery.EncryptUtils.Encode.AES.Aes_Util;
-import org.forevery.EncryptUtils.Encode.DES.DES_Utils;
-import org.forevery.EncryptUtils.Encode.HmacMD5.HmacMD5_Utils;
-import org.forevery.EncryptUtils.Encode.HmacSHA1.HmacSHA1_Utils;
-import org.forevery.EncryptUtils.Encode.HmacSHA224.HmacSHA224_Utils;
-import org.forevery.EncryptUtils.Encode.HmacSHA256.HmacSHA256_Utils;
-import org.forevery.EncryptUtils.Encode.HmacSHA384.HmacSHA384_Utils;
-import org.forevery.EncryptUtils.Encode.HmacSHA512.HmacSHA512_Utils;
-import org.forevery.EncryptUtils.Encode.MD2.MD2_Utils;
-import org.forevery.EncryptUtils.Encode.MD5.MD5_Utils;
-import org.forevery.EncryptUtils.Encode.RC4.RC4_Utils;
-import org.forevery.EncryptUtils.Encode.SHA1.SHA1_Utils;
-import org.forevery.EncryptUtils.Encode.SHA224.SHA224_Utils;
-import org.forevery.EncryptUtils.Encode.SHA256.SHA256_Utils;
-import org.forevery.EncryptUtils.Encode.SHA384.SHA384_Utils;
-import org.forevery.EncryptUtils.Encode.SHA512.SHA512_Utils;
-import org.forevery.EncryptUtils.Encode.T_3DES.T_3DES_Utils;
+import org.forevery.EncryptUtils.Encrypt.AES.Aes_Util;
+import org.forevery.EncryptUtils.Encrypt.DES.DES_Utils;
+import org.forevery.EncryptUtils.Encrypt.HmacMD5.HmacMD5_Utils;
+import org.forevery.EncryptUtils.Encrypt.HmacSHA1.HmacSHA1_Utils;
+import org.forevery.EncryptUtils.Encrypt.HmacSHA224.HmacSHA224_Utils;
+import org.forevery.EncryptUtils.Encrypt.HmacSHA256.HmacSHA256_Utils;
+import org.forevery.EncryptUtils.Encrypt.HmacSHA384.HmacSHA384_Utils;
+import org.forevery.EncryptUtils.Encrypt.HmacSHA512.HmacSHA512_Utils;
+import org.forevery.EncryptUtils.Encrypt.MD2.MD2_Utils;
+import org.forevery.EncryptUtils.Encrypt.MD5.MD5_Utils;
+import org.forevery.EncryptUtils.Encrypt.RC4.RC4_Utils;
+import org.forevery.EncryptUtils.Encrypt.SHA1.SHA1_Utils;
+import org.forevery.EncryptUtils.Encrypt.SHA224.SHA224_Utils;
+import org.forevery.EncryptUtils.Encrypt.SHA256.SHA256_Utils;
+import org.forevery.EncryptUtils.Encrypt.SHA384.SHA384_Utils;
+import org.forevery.EncryptUtils.Encrypt.SHA512.SHA512_Utils;
+import org.forevery.EncryptUtils.Encrypt.T_3DES.T_3DES_Utils;
 
 /**
  * Created by Forevery on 2017/9/29.
