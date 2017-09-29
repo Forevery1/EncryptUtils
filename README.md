@@ -2,5 +2,15 @@
 
 Gradle:
 ``` groovy
-compile 'com.forevery:EncodeUtils:1.9.1'
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+  	dependencies {
+	        compile 'com.github.Forevery1:EncodeUtils:84b7856cc1'
+	}
+
 ```
