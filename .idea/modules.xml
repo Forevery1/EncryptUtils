@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Deom_5.iml" filepath="$PROJECT_DIR$/Deom_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EncryptUtils/EncryptUtils.iml" filepath="$PROJECT_DIR$/EncryptUtils/EncryptUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/encodeutils/encodeutils.iml" filepath="$PROJECT_DIR$/encodeutils/encodeutils.iml" />
     </modules>
   </component>
 </project>
