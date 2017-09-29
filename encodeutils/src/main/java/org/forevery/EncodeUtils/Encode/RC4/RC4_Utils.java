@@ -7,6 +7,12 @@ package org.forevery.EncodeUtils.Encode.RC4;
 
 public class RC4_Utils {
 
+    /**
+     * @param data 数据
+     * @param key  密钥
+     * @return String
+     */
+
     private String Decry(byte[] data, String key) {
         if (data == null || key == null) {
             return null;
