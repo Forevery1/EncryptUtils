@@ -40,7 +40,7 @@ groovy
   compile:
   ```
  dependencies {
-     compile 'com.github.Forevery1:EncryptUtils:1.0'
+     compile 'com.github.Forevery1:EncryptUtils:1.1'
 }
 
 ```
