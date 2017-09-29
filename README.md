@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/Forevery1/EncodeUtils.svg)](https://jitpack.io/#Forevery1/EncodeUtils)
+[![](https://jitpack.io/v/Forevery1/EncryptUtils.svg)](https://jitpack.io/#Forevery1/EncryptUtils)
 
 * ### 加密解密
 ```
