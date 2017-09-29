@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/Forevery1/EncodeUtils.svg)](https://jitpack.io/#Forevery1/EncodeUtils)
+
 ## Download
 
 Gradle:
