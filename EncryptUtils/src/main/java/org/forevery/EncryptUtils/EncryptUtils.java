@@ -1,6 +1,8 @@
 package org.forevery.EncryptUtils;
 
-import org.forevery.EncryptUtils.Encrypt.AES.Aes_Util;
+import org.forevery.EncryptUtils.Encrypt.AES.AES_BASE;
+import org.forevery.EncryptUtils.Encrypt.AES.AES_ECB_Utils;
+import org.forevery.EncryptUtils.Encrypt.AES.AES_Utils;
 import org.forevery.EncryptUtils.Encrypt.DES.DES_Utils;
 import org.forevery.EncryptUtils.Encrypt.HmacMD5.HmacMD5_Utils;
 import org.forevery.EncryptUtils.Encrypt.HmacSHA1.HmacSHA1_Utils;
@@ -31,8 +33,9 @@ public class EncryptUtils {
     /**
      * AES 加密
      */
-    public static Aes_Util AES() {
-        return new Aes_Util();
+    public static AES_BASE AES(int mode, String complement) {
+        if (mode == AES.ECB) return new AES_ECB_Utils(complement);
+        return new AES_Utils(mode, complement);
     }
 
     /**

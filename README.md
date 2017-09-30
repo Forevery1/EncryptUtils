@@ -22,7 +22,18 @@ EncryptUtils.AES()......                 : AES加密/解密
 
 * ### AES加密解密相关
 ```
-目前只支持CBC的PKCS5Paddimg模式，ECB的NoPaddimg模式
+算法模式:
+   AES.CBC   : CBC模式
+   AES.CFB   : CFB模式
+   AES.ECB   : ECB模式
+   AES.OFB   : OFB模式
+补码方式:
+   AES.PKCS5Padding  : PKCS5Padding方式
+   AES.PKCS7Padding  : PKCS7Padding方式
+
+   EncryptUtils.AES(int mode,String complement)........
+例:
+   EncryptUtils.AES(AES.CBC,AES.PKCS5Padding)........
 ```
 
 ## Download
@@ -40,7 +51,7 @@ allprojects {
   compile:
   ```
  dependencies {
-     compile 'com.github.Forevery1:EncryptUtils:1.1'
+     compile 'com.github.Forevery1:EncryptUtils:1.2'
 }
 
 ```
